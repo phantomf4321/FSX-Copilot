@@ -31,6 +31,10 @@ def listen_for_command():
             print("Command recognized! Pressing 'f8' key...")
             pyautogui.press('f8')
 
+        if "lights" in command:
+            print("Command recognized! Pressing 'L' key...")
+            pyautogui.press('ll')
+
     except sr.UnknownValueError:
         print("Could not understand audio")
     except sr.RequestError as e:
