@@ -18,8 +18,14 @@ def listen_for_command():
         if "gears up" in command or "gears" in command or "years" in command or "gears down" in command:
             print("Command recognized! Pressing 'G' key...")
             pyautogui.press('g')
-            pyautogui.press('g')
-            pyautogui.press('g')
+
+
+        if "set flaps for takeoff" in command:
+            print("Command recognized! Pressing 'f6' key...")
+            pyautogui.press('f6')
+            pyautogui.press('f6')
+            pyautogui.press('f6')
+
 
         if "flaps up" in command:
             print("Command recognized! Pressing 'f6' key...")
@@ -40,7 +46,7 @@ def listen_for_command():
         if "full stop" in command:
             print("Command recognized! Pressing 'stop' key...")
             pyautogui.press('f1')
-            pyautogui.press('ctrl+.')
+            pyautogui.press('ctrl'+'.')
 
     except sr.UnknownValueError:
         print("Could not understand audio")
