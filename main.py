@@ -15,7 +15,7 @@ def listen_for_command():
         command = recognizer.recognize_google(audio).lower()
         print(f"Recognized: {command}")
 
-        if "gears up" in command:
+        if "gears up" in command or "gears" in command or "years" in command or "gears down" in command:
             print("Command recognized! Pressing 'G' key...")
             pyautogui.press('g')
 
