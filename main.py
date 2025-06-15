@@ -8,7 +8,7 @@ def listen_for_command():
 
     with microphone as source:
         recognizer.adjust_for_ambient_noise(source)
-        print("Listening for 'Gears up' command...")
+        print("Listening...")
         audio = recognizer.listen(source)
 
     try:
@@ -18,6 +18,18 @@ def listen_for_command():
         if "gears up" in command or "gears" in command or "years" in command or "gears down" in command:
             print("Command recognized! Pressing 'G' key...")
             pyautogui.press('g')
+
+        if "falps up" in command:
+            print("Command recognized! Pressing 'f6' key...")
+            pyautogui.press('f6')
+
+        if "falps down" in command:
+            print("Command recognized! Pressing 'f7' key...")
+            pyautogui.press('f7')
+
+        if "falps full" in command:
+            print("Command recognized! Pressing 'f8' key...")
+            pyautogui.press('f8')
 
     except sr.UnknownValueError:
         print("Could not understand audio")
