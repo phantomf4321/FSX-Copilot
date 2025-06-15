@@ -33,7 +33,12 @@ def listen_for_command():
 
         if "lights" in command:
             print("Command recognized! Pressing 'L' key...")
-            pyautogui.press('ll')
+            pyautogui.press('l')
+
+        if "full stop" in command:
+            print("Command recognized! Pressing 'stop' key...")
+            pyautogui.press('f1')
+            pyautogui.press('ctrl+.')
 
     except sr.UnknownValueError:
         print("Could not understand audio")
