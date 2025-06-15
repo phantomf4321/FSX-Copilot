@@ -19,15 +19,15 @@ def listen_for_command():
             print("Command recognized! Pressing 'G' key...")
             pyautogui.press('g')
 
-        if "falps up" in command:
+        if "flaps up" in command:
             print("Command recognized! Pressing 'f6' key...")
             pyautogui.press('f6')
 
-        if "falps down" in command:
+        if "flaps down" in command:
             print("Command recognized! Pressing 'f7' key...")
             pyautogui.press('f7')
 
-        if "falps full" in command:
+        if "flaps full" in command:
             print("Command recognized! Pressing 'f8' key...")
             pyautogui.press('f8')
 
@@ -50,7 +50,7 @@ def main():
     print("Voice Command App - Say 'Gears up' to press the G key")
     while True:
         listen_for_command()
-        time.sleep(1)  # Small delay to prevent CPU overuse
+        time.sleep(0.5)  # Small delay to prevent CPU overuse
 
 if __name__ == "__main__":
     main()
