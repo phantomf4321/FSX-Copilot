@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d888635-0e2e-48ec-b4eb-cfa6f0fe08c5" name="Changes" comment="pyinstaller --onefile --windowed voice_key_press.py" />
+    <list default="true" id="1d888635-0e2e-48ec-b4eb-cfa6f0fe08c5" name="Changes" comment="full stop">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/main.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/main.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.exe" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,29 +23,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2yYH20yayWrqopki8Y6yrMqFdft" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="FSX CoPilot" />
@@ -77,6 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750004376040</updated>
       <workItem from="1750004405399" duration="1679000" />
+      <workItem from="1750012324676" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <option name="closed" value="true" />
@@ -134,7 +145,39 @@
       <option name="project" value="LOCAL" />
       <updated>1750006086913</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="gears">
+      <option name="closed" value="true" />
+      <created>1750012549200</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750012549200</updated>
+    </task>
+    <task id="LOCAL-00009" summary="flaps">
+      <option name="closed" value="true" />
+      <created>1750012740651</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750012740651</updated>
+    </task>
+    <task id="LOCAL-00010" summary="light">
+      <option name="closed" value="true" />
+      <created>1750012871269</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750012871269</updated>
+    </task>
+    <task id="LOCAL-00011" summary="full stop">
+      <option name="closed" value="true" />
+      <created>1750012989793</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750012989793</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,9 +190,13 @@
     <MESSAGE value="main and libgs" />
     <MESSAGE value="hot key" />
     <MESSAGE value="pyinstaller --onefile --windowed voice_key_press.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="pyinstaller --onefile --windowed voice_key_press.py" />
+    <MESSAGE value="gears" />
+    <MESSAGE value="flaps" />
+    <MESSAGE value="light" />
+    <MESSAGE value="full stop" />
+    <option name="LAST_COMMIT_MESSAGE" value="full stop" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FSX_CoPilot$main.coverage" NAME="main Coverage Results" MODIFIED="1750005364609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FSX_CoPilot$main.coverage" NAME="main Coverage Results" MODIFIED="1750012933307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
