@@ -8,7 +8,6 @@ def listen_for_command():
     microphone = sr.Microphone()
 
     with microphone as source:
-        print("Adjusting for ambient noise...")
         recognizer.adjust_for_ambient_noise(source)
         print("Listening for 'Gears up' command...")
         audio = recognizer.listen(source)
