@@ -1,8 +1,7 @@
 import speech_recognition as sr
 import pyautogui
 import time
-
-
+import keyboard
 def listen_for_command():
     recognizer = sr.Recognizer()
     microphone = sr.Microphone()
@@ -31,7 +30,6 @@ def main():
     while True:
         listen_for_command()
         time.sleep(1)  # Small delay to prevent CPU overuse
-
 
 if __name__ == "__main__":
     main()
