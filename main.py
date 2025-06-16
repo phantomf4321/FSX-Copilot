@@ -56,7 +56,7 @@ app.title("FSX Co-Pilot")
 app.geometry("800x500")
 
 # Background image
-bg_image = Image.open("background.jpg")  # Use your generated cockpit image
+bg_image = Image.open("background.png")  # Use your generated cockpit image
 bg_image = bg_image.resize((800, 500))
 bg_photo = ImageTk.PhotoImage(bg_image)
 
