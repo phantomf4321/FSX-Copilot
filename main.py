@@ -25,7 +25,7 @@ def listen_loop():
                 pyautogui.press('g')
 
             elif "flaps for takeoff" in command:
-                for _ in range(3):
+                for i in range(3):
                     pyautogui.press('f6')
                     time.sleep(0.1)
 
@@ -50,6 +50,9 @@ def listen_loop():
 
             elif "brake" in command:
                 pyautogui.press('.')
+
+            elif "touch" in command:
+                pyautogui.press('/')
 
             else:
                 status_label.config(text="Unknown command.")
