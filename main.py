@@ -45,6 +45,12 @@ def listen_loop():
                 pyautogui.press('f1')
                 pyautogui.hotkey('ctrl', '.')
 
+            elif "push back" in command:
+                pyautogui.hotkey('shift', 'p')
+
+            elif "break" in command:
+                pyautogui.press('.')
+
             else:
                 status_label.config(text="Unknown command.")
 
