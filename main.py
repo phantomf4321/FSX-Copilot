@@ -24,7 +24,7 @@ def listen_loop():
             if "gears" in command or "years" in command:
                 pyautogui.press('g')
 
-            elif "set flaps for takeoff" in command:
+            elif "flaps for takeoff" in command:
                 for _ in range(3):
                     pyautogui.press('f6')
                     time.sleep(0.1)
