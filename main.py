@@ -48,7 +48,7 @@ def listen_loop():
             elif "push back" in command:
                 pyautogui.hotkey('shift', 'p')
 
-            elif "break" in command:
+            elif "brake" in command:
                 pyautogui.press('.')
 
             else:
