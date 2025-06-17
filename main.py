@@ -66,7 +66,6 @@ def start_listening_thread():
     thread = threading.Thread(target=listen_loop, daemon=True)
     thread.start()
 
-# GUI Setupgl
 app = tk.Tk()
 app.title("FSX Co-Pilot")
 app.geometry("800x500")
