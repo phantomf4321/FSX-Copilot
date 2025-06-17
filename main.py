@@ -71,7 +71,6 @@ app.title("FSX Co-Pilot")
 app.geometry("800x500")
 app.resizable(False, False)
 
-# Background image
 bg_image = Image.open("background.png")  # Use your cockpit image
 bg_image = bg_image.resize((800, 500))
 bg_photo = ImageTk.PhotoImage(bg_image)
@@ -82,7 +81,6 @@ bg_label.place(relwidth=1, relheight=1)
 status_label = tk.Label(app, text="Initializing voice recognition...", font=("Arial", 14), bg="white")
 status_label.pack(pady=20)
 
-# Start listening right away
 start_listening_thread()
 
 app.mainloop()
