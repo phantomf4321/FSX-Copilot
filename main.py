@@ -14,32 +14,34 @@ def listen_loop():
 
     while True:
         with microphone as source:
-            status_label.config(text="Ready for comand...")
+            status_label.config(text="Ready for command...")
             audio = recognizer.listen(source)
 
         try:
             command = recognizer.recognize_google(audio).lower()
             status_label.config(text=f"Command: {command}")
 
-            if "gears" in command or "years" in command:
+            if "gears" in command or "gear" in command:
                 print("G")
-                pyautogui.press('g')
 
-            elif "flaps for takeoff" in command:
+            elif "contact" in command:
+                pyautogui.press('~')
+
+            elif "flaps take" in command:
                 for i in range(3):
                     pyautogui.press('f6')
                     time.sleep(0.1)
 
-            elif "flaps up" in command:
+            elif "flaps up" in command or "flap up" in command:
                 pyautogui.press('f6')
 
-            elif "flaps down" in command:
+            elif "flaps down" in command or "flap down" in command:
                 pyautogui.press('f7')
 
-            elif "flaps full" in command:
+            elif "flaps full" in command or "flap full" in command:
                 pyautogui.press('f8')
 
-            elif "lights" in command:
+            elif "lights" in command or "light" in command:
                 pyautogui.press('l')
 
             elif "full stop" in command:
@@ -73,7 +75,7 @@ app.title("FSX Co-Pilot")
 app.geometry("800x500")
 app.resizable(False, False)
 
-bg_image = Image.open("background.png")  # Use your cockpit image
+bg_image = Image.open("background.png")
 bg_image = bg_image.resize((800, 500))
 bg_photo = ImageTk.PhotoImage(bg_image)
 
