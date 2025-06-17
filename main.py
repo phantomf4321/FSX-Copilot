@@ -22,6 +22,7 @@ def listen_loop():
             status_label.config(text=f"Command: {command}")
 
             if "gears" in command or "years" in command:
+                print("G")
                 pyautogui.press('g')
 
             elif "flaps for takeoff" in command:
@@ -56,6 +57,7 @@ def listen_loop():
 
             else:
                 status_label.config(text="Unknown command.")
+                print(command)
 
         except sr.UnknownValueError:
             status_label.config(text="Could not understand.")
