@@ -14,7 +14,7 @@ def listen_loop():
 
     while True:
         with microphone as source:
-            status_label.config(text="Listening...")
+            status_label.config(text="Ready for comand...")
             audio = recognizer.listen(source)
 
         try:
