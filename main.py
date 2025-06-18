@@ -66,6 +66,7 @@ def listen_loop():
         except sr.RequestError as e:
             status_label.config(text=f"API error: {e}")
 
+
 def start_listening_thread():
     thread = threading.Thread(target=listen_loop, daemon=True)
     thread.start()

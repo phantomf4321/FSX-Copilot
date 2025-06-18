@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d888635-0e2e-48ec-b4eb-cfa6f0fe08c5" name="Changes" comment="cleaning">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="1d888635-0e2e-48ec-b4eb-cfa6f0fe08c5" name="Changes" comment="cleaning" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +83,7 @@
       <workItem from="1750068702565" duration="3336000" />
       <workItem from="1750078242296" duration="1560000" />
       <workItem from="1750106124302" duration="1525000" />
-      <workItem from="1750189008325" duration="480000" />
+      <workItem from="1750189008325" duration="1182000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <option name="closed" value="true" />
@@ -335,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750189251486</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="cleaning">
+      <option name="closed" value="true" />
+      <created>1750189542102</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1750189542102</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +381,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="cleaning" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FSX_CoPilot$main.coverage" NAME="main Coverage Results" MODIFIED="1750189257795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FSX_CoPilot$main.coverage" NAME="main Coverage Results" MODIFIED="1750189590921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
