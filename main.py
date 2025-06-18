@@ -4,7 +4,6 @@ import time
 import tkinter as tk
 from PIL import Image, ImageTk
 import threading
-
 def listen_loop():
     recognizer = sr.Recognizer()
     microphone = sr.Microphone()
@@ -79,7 +78,6 @@ app.resizable(False, False)
 bg_image = Image.open("background.png")
 bg_image = bg_image.resize((800, 500))
 bg_photo = ImageTk.PhotoImage(bg_image)
-
 bg_label = tk.Label(app, image=bg_photo)
 bg_label.place(relwidth=1, relheight=1)
 
