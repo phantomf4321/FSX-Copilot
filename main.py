@@ -72,7 +72,7 @@ def start_listening_thread():
 
 app = tk.Tk()
 app.title("FSX Co-Pilot")
-app.geometry("800x500")
+app.geometry("400x250")
 app.resizable(False, False)
 
 bg_image = Image.open("background.png")
