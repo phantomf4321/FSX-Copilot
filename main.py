@@ -85,5 +85,4 @@ status_label = tk.Label(app, text="Initializing voice recognition...", font=("Ar
 status_label.pack(pady=20)
 
 start_listening_thread()
-
 app.mainloop()
