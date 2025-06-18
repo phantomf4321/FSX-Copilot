@@ -76,7 +76,7 @@ app.geometry("400x250")
 app.resizable(False, False)
 
 bg_image = Image.open("background.png")
-bg_image = bg_image.resize((800, 500))
+bg_image = bg_image.resize((400, 250))
 bg_photo = ImageTk.PhotoImage(bg_image)
 bg_label = tk.Label(app, image=bg_photo)
 bg_label.place(relwidth=1, relheight=1)
