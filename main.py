@@ -186,12 +186,12 @@ def listen_loop(logger):
             else:
                 status = "Unknown command"
                 status_label.config(text=status)
+                logger.log_command(command, status)
                 print(command)
 
         except sr.UnknownValueError:
             status = "Could not understand audio"
             status_label.config(text=status)
-            logger.log_command("Audio input", status)
         except sr.RequestError as e:
             status = f"API error: {e}"
             status_label.config(text=status)
