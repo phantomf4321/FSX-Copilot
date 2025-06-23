@@ -218,7 +218,7 @@ app.resizable(False, False)
 
 # Try to load background image
 try:
-    bg_image = Image.open("background.png")
+    bg_image = Image.open("assets/background.png")
     bg_image = bg_image.resize((400, 300))
     bg_photo = ImageTk.PhotoImage(bg_image)
     bg_label = tk.Label(app, image=bg_photo)
