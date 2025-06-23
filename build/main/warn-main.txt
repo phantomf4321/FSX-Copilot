@@ -1,0 +1,77 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running your program. Python and
+Python 3rd-party packages include a lot of conditional or optional modules. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+            tracking down the missing module yourself. Thanks!
+
+missing module named pwd - imported by posixpath (delayed, conditional, optional), shutil (delayed, optional), tarfile (optional), pathlib (delayed, optional), subprocess (delayed, conditional, optional), netrc (delayed, conditional), getpass (delayed), http.server (delayed, optional)
+missing module named grp - imported by shutil (delayed, optional), tarfile (optional), pathlib (delayed, optional), subprocess (delayed, conditional, optional)
+missing module named _posixsubprocess - imported by subprocess (conditional), multiprocessing.util (delayed)
+missing module named fcntl - imported by subprocess (optional)
+missing module named _posixshmem - imported by multiprocessing.resource_tracker (conditional), multiprocessing.shared_memory (conditional)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named termios - imported by getpass (optional), tty (top-level)
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), zipimport (top-level)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), zipimport (top-level)
+missing module named posix - imported by posixpath (optional), shutil (conditional), importlib._bootstrap_external (conditional), os (conditional, optional)
+missing module named resource - imported by posix (top-level)
+missing module named multiprocessing.get_context - imported by multiprocessing (top-level), multiprocessing.pool (top-level), multiprocessing.managers (top-level), multiprocessing.sharedctypes (top-level)
+missing module named multiprocessing.TimeoutError - imported by multiprocessing (top-level), multiprocessing.pool (top-level)
+missing module named multiprocessing.set_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named multiprocessing.get_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named pyimod02_importers - imported by C:\Users\Plus\PycharmProjects\FSX CoPilot\.venv\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py (delayed)
+missing module named collections.Sequence - imported by collections (conditional), pyautogui (conditional)
+missing module named asyncio.DefaultEventLoopPolicy - imported by asyncio (delayed, conditional), asyncio.events (delayed, conditional)
+missing module named annotationlib - imported by typing_extensions (conditional)
+missing module named 'numpy.typing' - imported by PIL._typing (conditional, optional)
+missing module named olefile - imported by PIL.FpxImagePlugin (top-level), PIL.MicImagePlugin (top-level)
+missing module named PIL._avif - imported by PIL (optional), PIL.AvifImagePlugin (optional)
+missing module named defusedxml - imported by PIL.Image (optional)
+missing module named 'Xlib.XK' - imported by pyautogui._pyautogui_x11 (top-level)
+missing module named 'Xlib.ext' - imported by pyautogui._pyautogui_x11 (top-level)
+missing module named Xlib - imported by mouseinfo (conditional), pyautogui._pyautogui_x11 (top-level)
+missing module named 'Xlib.display' - imported by pyautogui._pyautogui_x11 (top-level)
+missing module named AppKit - imported by pyperclip (delayed, conditional, optional), pyautogui._pyautogui_osx (top-level)
+missing module named Quartz - imported by pygetwindow._pygetwindow_macos (top-level), pyautogui._pyautogui_osx (optional)
+missing module named readline - imported by cmd (delayed, conditional, optional), code (delayed, conditional, optional), pdb (delayed, optional)
+missing module named Tkinter - imported by pymsgbox (conditional, optional), mouseinfo (conditional, optional)
+missing module named 'rubicon.objc' - imported by mouseinfo (conditional)
+missing module named rubicon - imported by mouseinfo (conditional)
+missing module named Foundation - imported by pyperclip (delayed, conditional, optional)
+missing module named PyQt5 - imported by pyperclip (delayed, conditional, optional)
+missing module named qtpy - imported by pyperclip (delayed, conditional, optional)
+missing module named numpy - imported by speech_recognition.recognizers.whisper_local.base (delayed, conditional), speech_recognition.recognizers.whisper_local.faster_whisper (conditional), speech_recognition.recognizers.whisper_local.whisper (conditional), pyscreeze (optional)
+missing module named cv2 - imported by pyscreeze (optional)
+missing module named vms_lib - imported by platform (delayed, optional)
+missing module named 'java.lang' - imported by platform (delayed, optional)
+missing module named java - imported by platform (delayed)
+missing module named _winreg - imported by platform (delayed, optional)
+missing module named whisper - imported by speech_recognition.recognizers.whisper_local.whisper (delayed, conditional)
+missing module named torch - imported by speech_recognition.recognizers.whisper_local.whisper (delayed, conditional)
+missing module named soundfile - imported by speech_recognition.recognizers.whisper_local.base (delayed)
+missing module named 'faster_whisper.transcribe' - imported by speech_recognition.recognizers.whisper_local.faster_whisper (conditional)
+missing module named faster_whisper - imported by speech_recognition.recognizers.whisper_local.faster_whisper (delayed, conditional)
+missing module named openai - imported by speech_recognition.recognizers.whisper_api.openai (delayed, optional)
+missing module named groq - imported by speech_recognition.recognizers.whisper_api.groq (delayed, optional)
+missing module named pocketsphinx - imported by speech_recognition.recognizers.pocketsphinx (delayed, optional)
+missing module named 'google.api_core' - imported by speech_recognition.recognizers.google_cloud (delayed, optional)
+missing module named 'google.cloud' - imported by speech_recognition.recognizers.google_cloud (delayed, optional)
+missing module named google - imported by speech_recognition.recognizers.google_cloud (conditional)
+missing module named vosk - imported by speech_recognition (delayed)
+missing module named tensorflow - imported by speech_recognition (delayed, optional)
+missing module named requests - imported by speech_recognition (delayed)
+missing module named botocore - imported by speech_recognition (delayed)
+missing module named boto3 - imported by speech_recognition (delayed, optional)
+missing module named snowboydetect - imported by speech_recognition (delayed)
