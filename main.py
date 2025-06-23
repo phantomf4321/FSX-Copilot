@@ -186,7 +186,6 @@ def listen_loop(logger):
             else:
                 status = "Unknown command"
                 status_label.config(text=status)
-                logger.log_command(command, status)
                 print(command)
 
         except sr.UnknownValueError:
