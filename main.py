@@ -138,16 +138,31 @@ def listen_loop(logger):
 
             if "gears" in command or "gear" in command:
                 logger.log_command(command, "Executed: G key pressed")
-                print("G")
+                print("g")
 
             elif "contact" in command:
                 logger.log_command(command, "Executed: ~ key pressed")
                 pyautogui.press('~')
 
-            elif "flaps take" in command:
+            elif "set flaps for takeoff" in command or "flaps takeoff" in command or "flap takeoff" in command or "flaps take" in command or "flap take" in command:
                 logger.log_command(command, "Executed: F6 pressed 3 times")
+                pyautogui.press('f5')
                 for i in range(3):
                     pyautogui.press('f6')
+                    time.sleep(0.1)
+
+            elif "set flaps for landing" in command or "flaps landing" in command or "flap landing" in command or "flaps land" in command or "flap land" in command:
+                logger.log_command(command, "Executed: F6 pressed 3 times")
+                pyautogui.press('f5')
+                for i in range(3):
+                    pyautogui.press('f6')
+                    time.sleep(0.1)
+
+            elif "reverse" in command:
+                logger.log_command(command, "Executed: F2 pressed 10 times")
+                pyautogui.press('f1')
+                for i in range(10):
+                    pyautogui.press('f2')
                     time.sleep(0.1)
 
             elif "flaps up" in command or "flap up" in command:
@@ -162,18 +177,35 @@ def listen_loop(logger):
                 logger.log_command(command, "Executed: F8 pressed")
                 pyautogui.press('f8')
 
-            elif "lights" in command or "light" in command:
-                logger.log_command(command, "Executed: L key pressed")
-                pyautogui.press('l')
-
             elif "full stop" in command:
                 logger.log_command(command, "Executed: F1 pressed + Ctrl+.")
                 pyautogui.press('f1')
                 pyautogui.hotkey('ctrl', '.')
 
-            elif "push back" in command:
+            elif "main door" in command:
+                logger.log_command(command, "Executed: ctrl+e")
+                pyautogui.hotkey('ctrl', 'e')
+
+            elif "cargo door" in command:
+                logger.log_command(command, "Executed: ctrl+e 2")
+                pyautogui.hotkey('ctrl', 'e')
+                pyautogui.press('2')
+
+            elif "connect gate" in command or "gate" in command:
+                logger.log_command(command, "Executed: ctrl+j")
+                pyautogui.hotkey('ctrl', 'j')
+
+            elif "lights" in command or "light" in command:
+                logger.log_command(command, "Executed: L key pressed")
+                pyautogui.press('l')
+
+            elif "push back" in command or "pushback" in command or "bush back" in command:
                 logger.log_command(command, "Executed: Shift+P pressed")
                 pyautogui.hotkey('shift', 'p')
+
+            elif "frul" in command:
+                logger.log_command(command, "Executed: Shift+f pressed")
+                pyautogui.hotkey('shift', 'f')
 
             elif "brake" in command:
                 logger.log_command(command, "Executed: . key pressed")
